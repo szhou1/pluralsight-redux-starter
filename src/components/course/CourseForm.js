@@ -47,6 +47,14 @@ const CourseForm = ({course, allAuthors, onSave, onChange, saving, errors}) => {
     );
 };
 
+TextInput.propTypes = {
+    name: React.PropTypes.string.isRequired
+};
+
+SelectInput.propTypes = {
+    name: React.PropTypes.string.isRequired
+};
+
 CourseForm.propTypes = {
     course: React.PropTypes.object.isRequired,
     allAuthors: React.PropTypes.array,
