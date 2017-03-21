@@ -22,5 +22,5 @@ describe('Store', () => {
             title: 'Clean Code'
         };
         expect(actual).toEqual(expected);
-    })
-})
+    });
+});

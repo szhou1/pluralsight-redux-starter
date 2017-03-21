@@ -24,7 +24,7 @@ describe('Course Reducer', () => {
         expect(newState[2].title).toEqual('C');
     });
 
-    if('should update course when passed UPDATE_COURSE_SUCCESS', () => {
+    it('should update course when passed UPDATE_COURSE_SUCCESS', () => {
         //arrange
         const initialState = [
             {id: 'A', title: 'A'},
